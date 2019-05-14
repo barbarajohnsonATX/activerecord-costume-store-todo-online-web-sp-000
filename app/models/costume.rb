@@ -1,5 +1,8 @@
 # Create your Costume class here
 # It should inherit from ActiveRecord::Base
+
+class Costume < ActiveRecord::Migration[5.1]
+
   def up
   end
  
@@ -7,7 +10,7 @@
   end
   
   def change
-    create_table :students do |t|
+    create_table :costumes do |t|
       t.string :name
     end
   end
